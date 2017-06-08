@@ -17,5 +17,33 @@
 			<web process="test" pageno="102" class="cn.cerc.sample.forms.TFrmDataGrid" />
 			<access verlist="4,6,1,2,3,5,0," />
 		</item>
+		<item code="Index" name="主菜单" proccode="base.default" parent="" hide="true" security="false" >
+		    <web process="test" pageno="103" class="cn.cerc.sample.forms.Index"/>
+		    <access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="商品资料" code="Product" proccode="base.default" parent="" hide="true" security="false">
+			<web process="test" pageno="104" class="cn.cerc.sample.forms.Product"/>
+			<access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="用户资料" code="UserInfo" proccode="base.default" parent="" hide="true" security="false">
+		     <web process="test" pageno="105" class="cn.cerc.sample.forms.UserInfo"/>
+		      <access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="进货单据资料" code="Order" proccode="base.default" parent="" hide="true" security="false">
+			<web process="test" pageno="106" class="cn.cerc.sample.forms.Order"/>
+			<access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="销售单据资料" code="BCOrder" proccode="base.default" parent="" hide="true" security="false">
+			<web process="test" pageno="107" class="cn.cerc.sample.forms.BCOrder"/>
+			<access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="盘点单据资料" code="AEOrder" proccode="base.default" parent="" hide="true" security="false">
+			<web process="test" pageno="108" class="cn.cerc.sample.forms.AEOrder"/>
+			<access verlist="4,6,1,2,3,5,0,"/>
+		</item>
+		<item name="库存资料" code="Inventory" proccode="base.default" parent="" hide="true" security="false">
+			<web process="test" pageno="109" class="cn.cerc.sample.forms.Inventory"/>
+			<access verlist="4,6,1,2,3,5,0,"/>
+		</item>
 	</body>
 </html>

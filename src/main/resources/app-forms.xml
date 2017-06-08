@@ -9,4 +9,12 @@
 	</bean>
 	<bean id="TFrmDataGrid" class="cn.cerc.sample.forms.TFrmDataGrid" scope="prototype">
 	</bean>
+	<bean id="Index" class="cn.cerc.sample.forms.Index" scope="prototype">
+	</bean>
+	<bean id="Product" class="cn.cerc.sample.forms.Product" scope="prototype"></bean>
+	<bean id="UserInfo" class="cn.cerc.sample.forms.UserInfo" scope="prototype"></bean>
+	<bean id="Order" class="cn.cerc.sample.forms.Order" scope="prototype"></bean>
+	<bean id="BCOrder" class="cn.cerc.sample.forms.BCOrder" scope="prototype"></bean>
+	<bean id="AEOrder" class="cn.cerc.sample.forms.AEOrder" scope="prototype"></bean>
+	<bean id="Inventory" class="cn.cerc.sample.forms.Inventory" scope="prototype"></bean>
 </beans>

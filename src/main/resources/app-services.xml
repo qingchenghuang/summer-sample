@@ -29,4 +29,115 @@
 	<bean id="ServiceUserList" class="cn.cerc.sample.services.ServiceUserList" scope="prototype">
 		<property name="restPath" value="get://*/public/users" />
 	</bean>
+	<bean id="AppUserInfo.search" class="cn.cerc.sample.services.AppUserInfo" scope="prototype">
+	    <property name="funcCode" value="search"></property>
+	</bean>
+	<bean id="AppUserInfo.deleteuser" class="cn.cerc.sample.services.AppUserInfo" scope="prototype">
+		<property name="funcCode" value="deleteuser"></property>
+	</bean>
+	<bean id="AppUserInfo.append" class="cn.cerc.sample.services.AppUserInfo" scope="prototype">
+		<property name="funcCode" value="append"></property>
+	</bean>
+	<bean id="AppUserInfo.update" class="cn.cerc.sample.services.AppUserInfo" scope="prototype">
+		<property name="funcCode" value="update"></property>
+	</bean>
+	<bean id="AppProductInfo.search" class="cn.cerc.sample.services.AppProductInfo" scope="prototype">
+		<property name="funcCode" value="search"></property>
+	</bean>
+	<bean id="AppProductInfo.delete" class="cn.cerc.sample.services.AppProductInfo" scope="prototype">
+		<property name="funcCode" value="delete"></property>
+	</bean>
+	<bean id="AppProductInfo.append" class="cn.cerc.sample.services.AppProductInfo" scope="prototype">
+		<property name="funcCode" value="append"></property>
+	</bean>
+	<bean id="AppProductInfo.update" class="cn.cerc.sample.services.AppProductInfo" scope="prototype">
+		<property name="funcCode" value="update"></property>
+	</bean>
+	<bean id="AppOrder.search" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="search"></property>
+	</bean>
+	<bean id="AppOrder.searchList" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="searchList"></property>
+	</bean>
+	<bean id="AppOrder.createorder" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="createorder"></property>
+	</bean>
+	<bean id="AppOrder.modify" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="modify"></property>
+	</bean>
+	<bean id="AppOrder.modifyOrderH" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="modifyOrderH"></property>
+	</bean>
+	<bean id="AppOrder.delete" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="delete"></property>
+	</bean>
+	<bean id="AppOrder.searchAB" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="searchAB"></property>
+	</bean>
+	<bean id="AppOrder.modifyproduct" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="modifyproduct"></property>
+	</bean>
+	<bean id="AppOrder.modifysearchproduct" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="modifysearchproduct"></property>
+	</bean>
+	<bean id="AppOrder.deleteOrder" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="deleteOrder"></property>
+	</bean>
+	<bean id="AppOrder.AppendOrderH" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="AppendOrderH"></property>
+	</bean>
+	<bean id="AppOrder.searchOrderB" class="cn.cerc.sample.services.AppOrder" scope="prototype">
+		<property name="funcCode" value="searchOrderB"></property>
+	</bean>
+	<bean id="AppBCOrder.searchBClist" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="searchBClist"></property>
+	</bean>
+	<bean id="AppBCOrder.searchList" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="searchList"></property>
+	</bean>
+	<bean id="AppBCOrder.search" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="search"></property>
+	</bean>
+	<bean id="AppBCOrder.AppendOrderH" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="AppendOrderH"></property>
+	</bean>
+	<bean id="AppBCOrder.searchOrderB" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="searchOrderB"></property>
+	</bean>
+		<bean id="AppBCOrder.delete" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="delete"></property>
+	</bean>
+	<bean id="AppBCOrder.modifyproduct" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="modifyproduct"></property>
+	</bean>
+	<bean id="AppBCOrder.deleteOrder" class="cn.cerc.sample.services.AppBCOrder" scope="prototype">
+		<property name="funcCode" value="deleteOrder"></property>
+	</bean>
+	<bean id="AppAEOrder.searchAE" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="searchAE"></property>
+	</bean>
+	<bean id="AppAEOrder.AppendOrderH" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="AppendOrderH"></property>
+	</bean>
+	<bean id="AppAEOrder.searchOrderB" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="searchOrderB"></property>
+	</bean>
+	<bean id="AppAEOrder.delete" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="delete"></property>
+	</bean>
+	<bean id="AppAEOrder.modifyproduct" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="modifyproduct"></property>
+	</bean>
+	<bean id="AppAEOrder.modifysearchproduct" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="modifysearchproduct"></property>
+	</bean>
+	<bean id="AppAEOrder.deleteOrder" class="cn.cerc.sample.services.AppAEOrder" scope="prototype">
+		<property name="funcCode" value="deleteOrder"></property>
+	</bean>
+	<bean id="AppInventory.search" class="cn.cerc.sample.services.AppInventory" scope="prototype">
+		<property name="funcCode" value="search"></property>
+	</bean>
+	<bean id="AppInventory.searchInventory" class="cn.cerc.sample.services.AppInventory" scope="prototype">
+		<property name="funcCode" value="searchInventory"></property>
+	</bean>
 </beans>
